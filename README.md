@@ -15,5 +15,5 @@ App.displayDialog('This script will attempt to repair SourceKit. Please save all
 Xcode = Application('Xcode')
 Xcode.quit()
 App.doShellScript('cd ~/Library/Developer/Xcode/DerivedData; rm -rf *')
-Xcode.open()
+Xcode.activate()
 ```
